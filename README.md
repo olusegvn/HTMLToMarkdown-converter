@@ -2,6 +2,7 @@
 This is a python script to convert html files to markdown files for import. The the script converts the HTML files and stores the results in the destination folder
 
 Instructions:
+    - Install python (3.7 recommended)
     - select input (file/directory) 
     - if input is a directory, simiply state the directory of the html files and the destination for the Markdown files
     - or if imput is file , supply full path to file
