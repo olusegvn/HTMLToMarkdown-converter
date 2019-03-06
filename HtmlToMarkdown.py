@@ -185,11 +185,11 @@ if check == "f":
         #catch permission errors
         except(PermissionError):
             print("\n\nPermission to read {0} denied .".format(file))
-            status = "Sorry, Conversion was unsuccessfull."
+            status = "Sorry, Conversion was unsuccessfull: Permission error"
         
 
         except(NameError):
-            status = "Sorry, Conversion was unsuccessful."
+            status = "Sorry, Conversion was unsuccessful:Name error"
             pass
 
         except(OSError):
